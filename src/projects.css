@@ -1,0 +1,46 @@
+.projects-div {
+  text-align: center;
+  margin-top: 25px;
+  letter-spacing: .3rem;
+}
+
+#project-header {
+  font-weight:600;
+  text-decoration: underline;
+}
+
+#description-text {
+  letter-spacing: .1rem;
+  margin-top: 10px;;
+}
+
+#project-link {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+#project-link:hover {
+  border: 2px solid blue;
+  opacity: 0.8;
+}
+
+#techstack-text {
+  text-decoration: underline;
+}
+
+#project-github {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 20px;
+  margin-left: 5px;
+}
+
+#project-github:hover {
+  border: 2px solid blue;
+  opacity: 0.8;
+}

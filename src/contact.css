@@ -1,0 +1,21 @@
+.link-div {
+  text-align: center;
+}
+
+#linkedin {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+#linkedin:hover {
+  opacity: 0.8;
+}
+
+#github {
+  margin-left: 5px;;
+  margin-top: 5px;
+}
+
+#github:hover {
+  opacity: 0.8;
+}

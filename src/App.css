@@ -1,38 +1,57 @@
-.App {
+.about-header {
+  text-align: center;
+  margin-top: 70px;
+  color: rgb(71, 74, 73);
+  font-weight: bold;
+  letter-spacing: .5rem;
+}
+
+body {
+  background-image:  linear-gradient(90deg, rgba(226, 207, 255, 1), rgba(251, 253, 191, 1));;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.image-div {
+  text-align: center;
+  margin-top: 18px;
+}
+
+.title-div {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.title {
+  letter-spacing: .1rem;
+  font-weight: light;
+  font-size: 50px;
+}
+
+.location-div {
+  margin-top: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.location-icon {
+  margin-right: 5px;
+  color: rgb(71, 74, 73);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bootcamp-div {
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#bootcamp-para {
+  letter-spacing: .1rem;
+  font-weight: 400;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+  background-color: pink;
 }
