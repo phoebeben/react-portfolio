@@ -1,6 +1,7 @@
 import './App.css';
 import './projects.css';
-import './contact.css'
+import './contact.css';
+import './about.css';
 import About from "./components/about";
 import Projects from "./components/projects";
 import islandHub from "../src/components/island-hub.png"
@@ -16,8 +17,8 @@ function App() {
       <div className="container">
         <Contact />
         <About />
+        <h2 id="project-header">Latest Projects</h2>
         <div className="projects-div card mb-4">
-          <h2 id="project-header">Projects</h2>
           <div className="d-flex flex-row">
             <Projects className="d-flex flex-row"
             description={"Worked on as part of a team where we made a clone of airbnb, working on the CRUD elements with ruby on rails. Users can filter the search of private islands to rent through clicking on the corresponding island category. They can book a stay at an island as well as upload their own island to stay at. We learned how to code as a team, working on branches and merging our work. We challenged ourselves with creating components and using SCSS to improve the front-end of the website."}

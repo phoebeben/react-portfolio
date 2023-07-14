@@ -1,22 +1,33 @@
+#project-header {
+  font-weight:600;
+  color: white;
+  text-decoration: underline;
+  margin-bottom: 61px;
+}
+
+#project-title {
+  color: white;
+}
+
 .projects-div {
   text-align: center;
   margin-top: 25px;
   letter-spacing: .3rem;
 }
 
-#project-header {
-  font-weight:600;
-  text-decoration: underline;
+.project-div {
+  padding: 5px;
 }
 
 #description-text {
   letter-spacing: .1rem;
   margin-top: 10px;;
+  color: white;
 }
 
 #project-link {
   text-decoration: none;
-  color: black;
+  color: grey;
   border: 2px solid black;
   padding: 5px;
   border-radius: 20px;
@@ -29,11 +40,20 @@
 
 #techstack-text {
   text-decoration: underline;
+  color: white;
+  margin-top: 10px;
+  font-weight: bold;
+  letter-spacing: .2rem;
+  background-color: rgb(48, 43, 43);
+}
+
+#techstack-list {
+  color: white;
 }
 
 #project-github {
   text-decoration: none;
-  color: black;
+  color: grey;
   border: 2px solid black;
   padding: 5px;
   border-radius: 20px;
@@ -43,4 +63,8 @@
 #project-github:hover {
   border: 2px solid blue;
   opacity: 0.8;
+}
+
+#button-description:hover {
+  background-color: rgb(55, 55, 55);
 }

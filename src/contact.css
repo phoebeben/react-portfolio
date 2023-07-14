@@ -4,7 +4,7 @@
 
 #linkedin {
   margin-right: 10px;
-  margin-top: 5px;
+  margin-top: 20px;
 }
 
 #linkedin:hover {
@@ -13,9 +13,10 @@
 
 #github {
   margin-left: 5px;;
-  margin-top: 5px;
+  margin-top: 20px;
+  fill: lightblue;
 }
 
 #github:hover {
-  opacity: 0.8;
+  opacity: 0.7;
 }
