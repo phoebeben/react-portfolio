@@ -34,7 +34,7 @@
 }
 
 #project-link:hover {
-  border: 2px solid blue;
+  border: 2px solid rgb(255, 255, 255);
   opacity: 0.8;
 }
 
@@ -61,7 +61,7 @@
 }
 
 #project-github:hover {
-  border: 2px solid blue;
+  border: 2px solid rgb(255, 255, 255);
   opacity: 0.8;
 }
 
