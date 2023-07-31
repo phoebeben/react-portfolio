@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.d7551d33.css",
+    "main.css": "/react-portfolio/static/css/main.d34917bf.css",
     "main.js": "/react-portfolio/static/js/main.5f0a6537.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/island-hub.png": "/react-portfolio/static/media/island-hub.bcae74780b3c5d85698f.png",
     "static/media/wayfindr.png": "/react-portfolio/static/media/wayfindr.17d6064d38c6a2605983.png",
     "index.html": "/react-portfolio/index.html",
-    "main.d7551d33.css.map": "/react-portfolio/static/css/main.d7551d33.css.map",
+    "main.d34917bf.css.map": "/react-portfolio/static/css/main.d34917bf.css.map",
     "main.5f0a6537.js.map": "/react-portfolio/static/js/main.5f0a6537.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7551d33.css",
+    "static/css/main.d34917bf.css",
     "static/js/main.5f0a6537.js"
   ]
 }
