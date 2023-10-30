@@ -23,18 +23,22 @@
   letter-spacing: .1rem;
   margin-top: 10px;;
   color: white;
+  margin-top: auto;
+  max-width: 50rem;
 }
 
 #project-link {
   text-decoration: none;
-  color: grey;
-  border: 2px solid black;
+  color: white;
+  background-color: #6c757d;
+  border: 2px solid white;
   padding: 5px;
   border-radius: 20px;
 }
 
 #project-link:hover {
-  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(44, 44, 44);
+  transition: .15s;
   opacity: 0.8;
 }
 
@@ -53,18 +57,20 @@
 
 #project-github {
   text-decoration: none;
-  color: grey;
-  border: 2px solid black;
+  color: white;
+  background-color: #6c757d;
+  border: 2px solid white;
   padding: 5px;
   border-radius: 20px;
-  margin-left: 5px;
+  margin-left: 14px;
 }
 
 #project-github:hover {
-  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(44, 44, 44);
+  transition: .15s;
   opacity: 0.8;
 }
 
 #button-description:hover {
-  background-color: rgb(55, 55, 55);
+  background-color: rgb(44, 44, 44);
 }

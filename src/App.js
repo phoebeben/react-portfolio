@@ -7,9 +7,7 @@ import Projects from "./components/projects";
 import islandHub from "../src/components/island-hub.png"
 import wayfindr from "../src/components/wayfindr.png"
 import Contact from "./components/contact";
-// import Footer from "./components/footer";
-// import Projects from "./components/projects";
-// import Contact from "./components/contact";
+import nameGenerator from "../src/components/name_generator.png"
 
 function App() {
   return (
@@ -39,6 +37,16 @@ function App() {
               github: "https://github.com/phoebeben/wayfindr"
             }}
             />
+            <Projects className="d-flex flex-row"
+            project={{
+              name: "AI Name Generator",
+              description: "Name generator created using chat gpt's OpenAI.",
+              techstack: "Ruby, Ruby on Rails, JavaScript, Chat gpt OpenAI",
+              link: "https://ainamegenerator-82f9ba3512f5.herokuapp.com/",
+              github: "https://github.com/phoebeben/ai-name-generator",
+              image: {nameGenerator}
+            }}>
+            </Projects>
            </div>
         </div>
       </div>
